@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+  
+	<Backstory>
+		<Title>Gatherer</Title>
+		<TitleShort>Gatherer</TitleShort>
+		<BaseDesc>NAME is a master gatherer. HECAP can find food in the most barren of places using HIS deep knowledge of plants, roots, and berries.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<requiredWorkTags>
+			<li>PlantWork</li>
+		</requiredWorkTags>
+		<SkillGains>
+			<li>
+				<key>Growing</key>
+				<value>4</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Loner</Title>
+		<TitleShort>Loner</TitleShort>
+		<BaseDesc>Loner never much liked the tribal council or the yearly festivals. HECAP prefers the open plain and the lonely whistle of wind through the rocks.\n\nHECAP visits HIS tribe from time to time, but for the most part HE takes care of HIMself using HIS own survival skills.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Social</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Growing</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>1</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+	</Backstory>
+
+
+	<Backstory>
+		<Title>Healer</Title>
+		<TitleShort>Healer</TitleShort>
+		<BaseDesc>After HIS tribe’s elder healer was killed in a raid, NAME took on the role. HECAP spent HIS days scrounging up herbs and mineral compounds from the nearby area to use in surprisingly effective remedies.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<requiredWorkTags>
+			<li>Caring</li>
+		</requiredWorkTags>
+		<SkillGains>
+			<li>
+				<key>Medicine</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Growing</key>
+				<value>3</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Scout</Title>
+		<TitleShort>Scout</TitleShort>
+		<BaseDesc>Since HIS tribe has made contact with local outlanders, NAME has contracted HIS services out as a guide to the local area. Frequent contact with ancient relics has made HIM fairly comfortable with the old technology.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<SkillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>
+					2
+				</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Digger</Title>
+		<TitleShort>Digger</TitleShort>
+		<BaseDesc>NAME and HIS tribe carved their home deep into the side of a mountain. NAME feels most at home picking through rock and shoring up cave walls.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<requiredWorkTags>
+			<li>Mining</li>
+		</requiredWorkTags>
+		<SkillGains>
+			<li>
+				<key>Mining</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Hulk</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Muffalo shaman</Title>
+		<TitleShort>Shaman</TitleShort>
+		<BaseDesc>Because of HIS quiet wisdom and great strength, NAME became the spiritual leader for a nomadic tribe that followed the herds of roaming muffalo.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<SkillGains>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Hulk</BodyTypeMale>
+		<BodyTypeFemale>Hulk</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Lore keeper</Title>
+		<TitleShort>Keeper</TitleShort>
+		<BaseDesc>NAME was one of a long line of lore keepers in HIS tribe. Every night around the fire, HECAP would pass on ancient knowledge and helpful wisdom through stories.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<requiredWorkTags>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+		<SkillGains>
+			<li>
+				<key>Intellectual</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Artistic</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Weaver</Title>
+		<TitleShort>Weaver</TitleShort>
+		<BaseDesc>NAME was an expert at working muffalo wool, plant fibres and natural dyes into beautiful clothing for HIS kin. HISCAP beautiful handicrafts were traded frequently between local tribes.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<requiredWorkTags>
+			<li>Crafting</li>
+		</requiredWorkTags>
+		<SkillGains>
+			<li>
+				<key>Crafting</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Growing</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Cave tender</Title>
+		<TitleShort>Tender</TitleShort>
+		<BaseDesc>While the others were out hunting and foraging, NAME would stay at home to cook and take care of the young and sick.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Cooking</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Medicine</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+	<Backstory>
+		<Title>Warrior</Title>
+		<TitleShort>Warrior</TitleShort>
+		<BaseDesc>NAME was a fearsome warrior, proficient with many weapons. HECAP participated in many battles.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Melee</key>
+				<value>6</value>
+			</li>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>-2</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Tribal</li>
+		</SpawnCategories>
+		<BodyTypeMale>Male</BodyTypeMale>
+		<BodyTypeFemale>Female</BodyTypeFemale>
+	</Backstory>
+
+</Backstories>

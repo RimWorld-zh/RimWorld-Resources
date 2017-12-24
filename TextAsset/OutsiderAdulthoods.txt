@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Backstories>
+
+	<Backstory>
+		<Title>Hermit</Title>
+		<TitleShort>Hermit</TitleShort>
+		<BaseDesc>Worn out by the pressures of social interaction, NAME left HIS crowded midworld city to live a simple life in the wilderness. There, HE spent HIS days alone, tending HIS garden and crafting the simple tools HE needed to survive.</BaseDesc>
+		<Slot>Adulthood</Slot>
+		<WorkDisables>
+			<li>Social</li>
+		</WorkDisables>
+		<SkillGains>
+			<li>
+				<key>Growing</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Crafting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Construction</key>
+				<value>1</value>
+			</li>
+		</SkillGains>
+		<SpawnCategories>
+			<li>Slave</li>
+			<li>Traveler</li>
+		</SpawnCategories>
+		<requiredWorkTags>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>Crafting</li>
+		</requiredWorkTags>
+		<BodyTypeMale>Thin</BodyTypeMale>
+		<BodyTypeFemale>Thin</BodyTypeFemale>
+    <forcedTraits>
+      <Ascetic>0</Ascetic>
+    </forcedTraits>
+	</Backstory>
+
+</Backstories>
